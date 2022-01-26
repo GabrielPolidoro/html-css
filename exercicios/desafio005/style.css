@@ -1,0 +1,36 @@
+
+body{
+    max-width: 60%;
+    margin: auto;
+    background-color: black;
+}
+
+
+#principal{
+    background-color: rgb(240, 235, 235);
+    border-radius: 5px;
+}
+
+#titulo{
+    padding: 20px 0 0 20px;
+    font-size: 30px;
+}
+
+#sub1{
+    padding-left: 20px;
+}
+
+#foto{
+    border-radius: 50%;
+    margin-left: 20px;
+    border: 2px solid;
+}
+
+#paragrafo{
+    padding: 0 20px 0 ;
+    text-align: justify;
+}
+
+#sub2{
+    padding-left: 20px;
+}
