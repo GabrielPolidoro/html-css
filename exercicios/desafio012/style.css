@@ -1,6 +1,13 @@
+@charset "UTF-8";
+
 *{
     padding: 0;
     margin: 0;
+}
+
+body{
+    min-height: 100vh;
+    background-color: darkgray;
 }
 
 header{
@@ -11,58 +18,45 @@ header{
 h1{
     color: white;
     text-align: center;
-    font-size: 75px;
+    font-variant: small-caps;
 }
 
 #autor{
-    padding: 15px;
+    padding-bottom: 50px;
     color: white;
     text-align: center;
 }
 
 a{
     color: white;
-    text-decoration: none;
+    text-decoration: none;   
 }
 
 a:hover{
     text-decoration: underline;
 }
 
-.conteudo{
-    width: 290px;
-    font-size: 30px;
-    margin: 40px;
+section{   
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
 }
 
-.dentro{
-   
-    font-size: 30px;
-    color: white;
-    padding: 20px;
-    
-}
-
-#container1{
+.imagem{
     background-image: url('./imagens/background001.jpg');
-    height: 800px;
-    background-position: center center;
-    padding: 20px;
-    
+    background-position: center center;  
+    color: white;
 }
 
-section{
-    margin: 30px;
-    background-color: rgba(0, 0, 0, 0.5);
-    width: 350px;
-    height: 500px;
+.p1{
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.171);
 }
 
-#container2{
-    background-image: url('./imagens/background002.jpg');
-    height: 800px;
-    background-position: center center;
-    padding: 20px;
+.p2{
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.171);
 }
 
 footer{
